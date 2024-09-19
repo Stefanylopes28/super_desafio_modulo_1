@@ -1,0 +1,165 @@
+/* Zerar o padding e a margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
+  }
+  
+  body {
+    background-color: #EFEEF3;
+  }
+  
+  /* Estilizar o cabeçalho */
+  header {
+    display: flex; /* Alinha logo e nav horizontalmente */
+    align-items: center; /* Alinha a logo e o menu verticalmente no centro */
+    padding: 10px 20px;
+    
+  }
+  
+  /* Estilizar a logo */
+  .logo {
+    height: 50px; /* Ajuste a altura da logo conforme necessário */
+    margin-right: 20px; /* Espaçamento entre a logo e o menu */
+    
+  }
+  
+  /* Estilizar o menu */
+  nav {
+    display: flex; /* Garante que o nav se estenda e alinhe horizontalmente */
+    
+  }
+  
+  nav ul {
+    display: flex; /* Alinha os itens do menu horizontalmente */
+    list-style: none; /* Remove os marcadores padrão */
+    
+    
+  }
+  
+  nav ul li {
+    margin-left: 115px; /* Espaçamento entre os itens do menu */
+    cursor: pointer;
+    
+  }
+  
+  nav ul li:hover {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Estilizar a imagem de fundo */
+  .background {
+    width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura disponível */
+    height: 300px; /* Define a altura da imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+    display: block; /* Garante que a imagem ocupe uma linha inteira */
+    margin-top: 20px; /* Espaçamento entre o header e a imagem de fundo */
+  }
+  
+  /* Estilização geral */
+.primeiraSessao {
+    display: flex; /* Cria um layout flexível */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between; /* Espaça a imagem e o texto */
+    margin: 20px 0;
+    padding: 0 20px; /* Ajusta o espaçamento interno */
+  }
+  
+  .primeiraSessao img {
+    width: 30%; /* Ajuste a largura da imagem conforme necessário */
+    left: 60%;
+    margin: 2% 6%
+
+    
+  }
+  
+  .primeiraSessao div {
+    display: flex;
+    flex-direction: column; /* Coloca o <h1> acima do <p> */
+    justify-content: flex-start; /* Garante que o conteúdo fique alinhado ao topo */
+    width: 55%; /* Ajusta a largura da área de texto */
+  }
+  
+  .primeiraSessao h1 {
+    margin-top: 5%;
+    margin-bottom: 20%; /* Espaçamento entre o título e o parágrafo */
+    text-align: left; /* Alinha o título à esquerda */
+    position: absolute;
+    left: 60%;
+  }
+  
+  .primeiraSessao p {
+    text-align: left; /* Garante que o texto fique alinhado à esquerda */
+    max-width: 25%; /* Reduz a largura máxima do parágrafo */
+    line-height: 1.6; /* Melhora a legibilidade */
+    font-size: 15px; /* Ajuste o tamanho da fonte para diminuir as letras */
+    margin-top: 20%; /* Remove a margem superior */
+    margin-bottom: -1%; /* Adiciona um espaçamento inferior */
+    position: absolute;
+    left: 60%;
+    bottom: 6%;
+  }
+  
+  /* Estilização da segundaSessao */
+  .segundaSessao {
+    display: flex; /* Define um layout flexível */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between; /* Espaça o conteúdo entre o h2 e as imagens */
+    padding: 20px; /* Adiciona algum padding para o layout */
+  }
+  
+  .segundaSessao .conteudo {
+    display: flex; /* Alinha as imagens horizontalmente */
+    align-items: flex-start; /* Alinha as imagens ao topo */
+  }
+  
+  .segundaSessao h2 {
+    width: 38vw; /* Ajuste a largura da imagem conforme necessário */
+    left: 90%;
+    margin: 10% 17%;  /* Adiciona espaçamento entre o h2 e as imagens */
+  }
+  
+  .imagemEsquerda1 {
+    margin-top: 5%;
+    margin-bottom: 60%; /* Espaçamento entre o título e o parágrafo */
+    text-align: left; /* Alinha o título à esquerda */
+    position: absolute;
+    left: 60%;
+    height: auto;
+  }
+
+  .imagemEsquerda2 {
+    margin-top: 5%;
+    margin-bottom: 60%; /* Espaçamento entre o título e o parágrafo */
+    text-align: left; /* Alinha o título à esquerda */
+    position: absolute;
+    left: 70%;
+    height: auto;
+    
+  }
+  
+  .imagemEsquerda3 {
+    margin-top: 5%;
+    margin-bottom: 60%; /* Espaçamento entre o título e o parágrafo */
+    text-align: left; /* Alinha o título à esquerda */
+    position: absolute;
+    left: 82%;
+    height: auto;
+
+  }
+  
+  .imagemEsquerda4 {
+    margin-top: 5%;
+    margin-bottom: 60%;
+    text-align: left;
+    position: absolute;
+    left: 90%;
+    height: auto;
+
+  }
+  /* Remove o espaçamento da primeira imagem para alinhamento perfeito */
+  .segundaSessao img:first-child {
+    margin-left: 0;
+  }
